@@ -1,7 +1,3 @@
-
-# word = 'test'
-word = 'testing'
-
 def get_middle_letter(string):
     str_length = len(string)
 
@@ -11,8 +7,5 @@ def get_middle_letter(string):
         string_middle = int(str_length / 2)
         return string[string_middle - 1 : string_middle + 1]
 
-letter1 = get_middle_letter('test')
-letter2 = get_middle_letter('testing')
-
-print(letter1)
-print(letter2)
+print(get_middle_letter('test'))
+print(get_middle_letter('testing'))
